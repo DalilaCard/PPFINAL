@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/departments")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://proyectofin-three.vercel.app")
 public class LoginController {
 
     private final UserDetailsService userDetailsService;

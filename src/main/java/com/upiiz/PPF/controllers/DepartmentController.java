@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/departments")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://proyectofin-three.vercel.app")
 @Tag(
         name = "Departments"
 )
