@@ -7,19 +7,20 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "departments")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class DepartmentEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "department_id")
+//    @Column(name = "department_id")
     private Long departmentId;
 
-    @Column(name = "department_name", nullable = false)
+    @Column(name = "department_name", nullable = false, length = 100)
     private String departmentName;
 
     @Column(name = "usr")
     private String user;
+
 }
