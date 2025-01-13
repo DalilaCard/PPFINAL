@@ -1,0 +1,11 @@
+com\upiiz\PPF\repositories\DepartmentRepository.class
+com\upiiz\PPF\config\WebConfig.class
+com\upiiz\PPF\entities\DepartmentEntity.class
+com\upiiz\PPF\config\OpenApiConfiguration.class
+com\upiiz\PPF\config\SecurityConfig.class
+com\upiiz\PPF\controllers\LoginController.class
+com\upiiz\PPF\PpfApplication.class
+com\upiiz\PPF\controllers\DepartmentController.class
+com\upiiz\PPF\config\WebConfig$1.class
+com\upiiz\PPF\controllers\LoginController$AuthRequest.class
+com\upiiz\PPF\services\DepartmentService.class
