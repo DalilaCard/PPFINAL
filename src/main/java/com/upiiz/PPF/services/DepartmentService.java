@@ -14,9 +14,6 @@ public class DepartmentService {
 
     @Autowired
 
-
-
-
     DepartmentRepository departmentRepository;
 
     public List<DepartmentEntity> obtenerDepartments() {
